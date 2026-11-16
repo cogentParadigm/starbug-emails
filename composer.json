@@ -1,0 +1,28 @@
+{
+  "name": "starbug/emails",
+  "type": "starbug-module",
+  "description": "Starbug emails module.",
+  "license": "GPL-3.0-or-later",
+  "authors": [
+    {
+      "name": "Ali Gangji",
+      "homepage": "https://github.com/cogentParadigm"
+    }
+  ],
+  "extra": {
+    "namespace": "Starbug\\Emails"
+  },
+  "autoload": {
+    "psr-4": {
+      "Starbug\\Emails\\": "src/"
+    }
+  },
+  "require": {
+    "phpmailer/phpmailer": "^6.8.0",
+    "starbug/db": "^0.12",
+    "starbug/macro": "^0.9",
+    "starbug/routing": "^1.0",
+    "starbug/admin": "^0.9",
+    "starbug/display": "^0.9"
+  }
+}
